@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">录屏</string>
+
+    <string name="lop_btn_start">启动</string>
+    <string name="lop_empty_result_hint">提示：录制完毕后，点击通知即可查看视频。</string>
+    <string name="action_settings">设置</string>
+    <string name="lop_history">视频路径：</string>
+    <string name="lop_stop">停止</string>
+    <string name="lop_service_started">录屏服务已经在运行...</string>
+    <string name="lop_ntf_title_record_finish">录制屏幕已经结束，点击播放</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/stopVisable"
+        android:defaultValue="false"
+        android:key="@string/lop_setting_show_stop_title_key"
+        android:title="@string/lop_setting_show_stop_title"/>
+    <SwitchPreference
+        android:id="@+id/showNotification"
+        android:defaultValue="true"
+        android:key="@string/lop_setting_show_notification_key"
+        android:title="@string/lop_setting_show_notification"/>
+    <SwitchPreference
+        android:id="@+id/countDown"
+        android:defaultValue="true"
+        android:key="@string/lop_setting_countdown_key"
+        android:title="@string/lop_setting_countdown"/>
+    <!--<CheckBoxPreference-->
+    <!--android:defaultValue="false"-->
+    <!--android:key="pref_key_auto_delete"-->
+    <!--android:title="Notification"/>-->
+    <!--<ListPreference-->
+    <!--android:defaultValue="false"-->
+    <!--android:key="pref_key_auto_delete"-->
+    <!--android:title="Notification"/>-->
+
+</PreferenceScreen>
